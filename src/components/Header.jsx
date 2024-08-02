@@ -2,9 +2,8 @@ import React from "react";
 import { defineOneEntry } from "oneentry";
 import Link from "next/link";
 /**
- *
  * In other to see this header in all our pages we need to add this header component in the layouts.js root file.
- * We install oneentry from npm package o our app
+ * We install oneentry from npm package of our app
  */
 
 const { Menus } = defineOneEntry("https://tobildestate.oneentry.cloud", {
